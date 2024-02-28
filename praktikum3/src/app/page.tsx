@@ -3,6 +3,8 @@ import { Gallery } from "@/components/gallery";
 import TodoList from "@/components/todolist";
 import MyGallery from "@/components/mygallery"; 
 import MyAvatar from "@/components/myprofile";
+import MyProfileV2 from "@/components/myprpofilev2";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-14 bg-gradient-to-b from-gray-200">
@@ -18,6 +20,9 @@ export default function Home() {
       </div>
       <div>
       <MyAvatar />
+      </div>
+      <div>
+      <MyProfileV2/>
       </div>
     </main>
   );

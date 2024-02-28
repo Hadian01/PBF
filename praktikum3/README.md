@@ -75,3 +75,12 @@ Hasilnya:
 Penjelasan:
 -> komponen MyAvatar menerima prop size untuk mengatur ukurannya dan prop imageUrl untuk menampilkan gambar yang sesuai. Saat memperbarui nilai prop size atau imageUrl, komponen MyAvatar akan secara otomatis memperbarui tampilannya sesuai dengan nilai yang diberikan.
 
+Pada soal no 8 saya mengikuti perintah panduan dan menganti eror sampe menjadi :
+Kodingan:
+![gambar-pratikum](img/gambar17.png)
+![gambar-pratikum](img/gambar18.png)
+![gambar-pratikum](img/gambar19.png)
+Hasilnya:
+![gambar-pratikum](img/gambar20.png)
+Penjelasan ya:
+Saya membuat komponen card dari komponen MyProfileV2 lalu Saya buat terpisah agar kodenya menjadi lebih terorganisir. Dan saya menggunakan Prop children, untuk mengirimkan JSX yang berbeda ke dalam komponen card yang mana untuk memasukan konten yang bervariasi ke Card tanpa perlu properti khusus lalu saya masukan di page.tsx
