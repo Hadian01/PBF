@@ -27,4 +27,8 @@ Penjelasan :
 
 ->untuk next.config.mjs tetap sama dengan praktikum pertama dan tidak ada yang diubah
 
-  
+Pada Soal No 3 ini
+saya membuat file baru bernama convert.jsx dan saya input kode yang ada di petunjuk laporan ketika diinputkan ada beberapa eror yang muncul yaitu:
+![gambar-pratikum](img/gambar3.png)
+setelah  beberapa kali percobaan saya berhasil menyelsaikan erornya menjadi :
+![gambar-pratikum](img/gambar4.png)
