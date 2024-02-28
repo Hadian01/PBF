@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Gallery } from "@/components/gallery";
+import TodoList from "@/components/todolist";
 
 export default function Home() {
   return (
@@ -8,6 +9,9 @@ export default function Home() {
         <p className="text-lg font-semibold mb-2 text-black">Ilmuan yang luar biasa</p>
         <div className="flex flex-row space-x-10">
           <Gallery /> 
+        </div>
+        <div>
+          <TodoList/>
         </div>
       </div>
     </main>

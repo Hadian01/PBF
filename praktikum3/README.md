@@ -38,3 +38,10 @@ Pada soal No 4 saya mendapat eror seperti ini:
 dan saya perbaiki menjadi seperti ini:
 ![gambar-pratikum](img/gambar6.png)
 perbaikan yang say lakukan di bagian elemen h1, saya menggunakan properti name dari objek person untuk menampilkan nama orang tersebut. Hal ini memastikan bahwa hanya nama orang tersebut yang akan dicetak, bukan seluruh objek person.
+
+Pada soal No 5 saya mengikuti perintah panduan dan mengahsilkan bentuk seperti ini
+kodingan:
+![gambar-pratikum](img/gambar7.png)
+hasilnya:
+![gambar-pratikum](img/gambar8.png)
+penjelasan : jadi kan saya udh bikin component todolist.tsx setelah itu di src/app/page.tsx saya import component todolist tersebut dan saya pangill maka hasilinya seperti digambar.
