@@ -16,4 +16,15 @@ const nextConfig = {
 
   export default nextConfig;
 
+
+Pada Soal No 2 saya mendapatkan hasil yang sama dengan percobaan pertama hanya saja ini cara mendapatkan hasilnya berbeda
+![gambar-pratikum](img/gambar2.png)
+
+Penjelasan :
+-> disini saya membuat file baru di component dengan nama gallery.tsx yang mana fungsinya untuk mengimpor dan merender beberapa instansi dari komponen Profile.
+
+-> disini saya juga File page.tsx dan menempatkan komponen <Gallery /> di dalam fungsi Home, yang kemudian akan dirender di halaman.
+
+->untuk next.config.mjs tetap sama dengan praktikum pertama dan tidak ada yang diubah
+
   
