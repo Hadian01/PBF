@@ -75,7 +75,7 @@ Hasilnya:
 Penjelasan:
 -> komponen MyAvatar menerima prop size untuk mengatur ukurannya dan prop imageUrl untuk menampilkan gambar yang sesuai. Saat memperbarui nilai prop size atau imageUrl, komponen MyAvatar akan secara otomatis memperbarui tampilannya sesuai dengan nilai yang diberikan.
 
-Pada soal no 8 saya mengikuti perintah panduan dan menganti eror sampe menjadi :
+Pada soal no  saya mengikuti perintah panduan dan menganti eror sampe menjadi :
 Kodingan:
 ![gambar-pratikum](img/gambar17.png)
 ![gambar-pratikum](img/gambar18.png)
