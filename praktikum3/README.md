@@ -32,3 +32,9 @@ saya membuat file baru bernama convert.jsx dan saya input kode yang ada di petun
 ![gambar-pratikum](img/gambar3.png)
 setelah  beberapa kali percobaan saya berhasil menyelsaikan erornya menjadi :
 ![gambar-pratikum](img/gambar4.png)
+
+Pada soal No 4 saya mendapat eror seperti ini:
+![gambar-pratikum](img/gambar5.png)
+dan saya perbaiki menjadi seperti ini:
+![gambar-pratikum](img/gambar6.png)
+perbaikan yang say lakukan di bagian elemen h1, saya menggunakan properti name dari objek person untuk menampilkan nama orang tersebut. Hal ini memastikan bahwa hanya nama orang tersebut yang akan dicetak, bukan seluruh objek person.
