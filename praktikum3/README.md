@@ -57,3 +57,11 @@ yang saya ubah:
 
 ->Di atribut src pada elemen <img>, saya menggunakan string template (dengan backtick) untuk menggabungkan nilai dari variabel baseUrl, person.imageId, person.imageSize, dan ekstensi file .jpg. Ini memastikan bahwa URL gambar dibangun dengan benar.
 
+Pada soal no 7 saya mengikuti perintah panduan dan menganti eror menjadi seperti ini
+Kodingan:
+![gambar-pratikum](img/gambar11.png)
+![gambar-pratikum](img/gambar12.png)
+Hasilnya :
+![gambar-pratikum](img/gambar13.png)
+Penjelasaan :
+-> Mengekstrak komponen MyProfile dari MyGallery untuk mengurangi duplikasi kode

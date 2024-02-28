@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Gallery } from "@/components/gallery";
 import TodoList from "@/components/todolist";
+import MyGallery from "@/components/mygallery"; // Perbaikan nama komponen
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
         <div>
           <TodoList/>
         </div>
+        <MyGallery />
       </div>
     </main>
   );
 }
+
