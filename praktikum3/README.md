@@ -45,3 +45,15 @@ kodingan:
 hasilnya:
 ![gambar-pratikum](img/gambar8.png)
 penjelasan : jadi kan saya udh bikin component todolist.tsx setelah itu di src/app/page.tsx saya import component todolist tersebut dan saya pangill maka hasilinya seperti digambar.
+
+Pada soal no 6 saya mengikuti perintah panduan dan menganti eror menjadi seperti ini
+Kodingan:
+![gambar-pratikum](img/gambar9.png)
+hasilnya:
+![gambar-pratikum](img/gambar10.png)
+
+yang saya ubah:
+-> saya menambahkan variabel baseUrl yang berisi bagian awal dari URL gambar, yaitu 'https://i.imgur.com/'. Variabel ini akan digunakan untuk menggabungkan URL gambar bersama dengan imageId, imageSize, dan ekstensi file.
+
+->Di atribut src pada elemen <img>, saya menggunakan string template (dengan backtick) untuk menggabungkan nilai dari variabel baseUrl, person.imageId, person.imageSize, dan ekstensi file .jpg. Ini memastikan bahwa URL gambar dibangun dengan benar.
+
