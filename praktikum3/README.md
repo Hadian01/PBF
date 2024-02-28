@@ -65,3 +65,13 @@ Hasilnya :
 ![gambar-pratikum](img/gambar13.png)
 Penjelasaan :
 -> Mengekstrak komponen MyProfile dari MyGallery untuk mengurangi duplikasi kode
+
+Pada soal no 8 saya mengikuti perintah panduan dan menganti eror sampe menjadi :
+Kodingan:
+![gambar-pratikum](img/gambar14.png)
+![gambar-pratikum](img/gambar15.png)
+Hasilnya:
+![gambar-pratikum](img/gambar16.png)
+Penjelasan:
+-> komponen MyAvatar menerima prop size untuk mengatur ukurannya dan prop imageUrl untuk menampilkan gambar yang sesuai. Saat memperbarui nilai prop size atau imageUrl, komponen MyAvatar akan secara otomatis memperbarui tampilannya sesuai dengan nilai yang diberikan.
+

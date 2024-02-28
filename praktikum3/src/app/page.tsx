@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { Gallery } from "@/components/gallery";
 import TodoList from "@/components/todolist";
-import MyGallery from "@/components/mygallery"; // Perbaikan nama komponen
-
+import MyGallery from "@/components/mygallery"; 
+import MyAvatar from "@/components/myprofile";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-14 bg-gradient-to-b from-gray-200">
@@ -15,6 +15,9 @@ export default function Home() {
           <TodoList/>
         </div>
         <MyGallery />
+      </div>
+      <div>
+      <MyAvatar />
       </div>
     </main>
   );
