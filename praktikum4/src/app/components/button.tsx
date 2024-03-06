@@ -7,6 +7,19 @@ export function Tombol_2({ isiPesan, namaTombol }: { isiPesan: string, namaTombo
     );
 }
 
+export function Tombol_3({ isiPesan, namaTombol }: { isiPesan: string, namaTombol: string }) {
+    return (
+        <button
+            className="bg-green-400 hover:bg-green-700 text-white p-2 rounded m-2"
+            onClick={() => {
+                alert(isiPesan);
+            }}
+        >
+            {namaTombol}
+        </button>
+    );
+}
+
 export default function Tombol_l() {
     function HandleClick() {
         alert("Tombol telah ditekan!");

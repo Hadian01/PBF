@@ -10,6 +10,11 @@ return (
     <hr></hr>
     <Tombol_2 isiPesan="Ini Pesanku" namaTombol="Pesan" />
   </div>
+  <hr></hr>
+  <div className="bg-red-300" onClick={() => alert('Parent Element : Div')}>
+    <Tombol_3 isiPesan="Child Element : Tombol-1" namaTombol="Tombol-1" />
+    <Tombol_3 isiPesan="Child Element : Tombol-2" namaTombol="Tombol-2" />
+  </div>
   </>
 );
 }
