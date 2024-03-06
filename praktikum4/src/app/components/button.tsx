@@ -15,7 +15,7 @@ export function Tombol_3({ isiPesan, namaTombol }: { isiPesan: string, namaTombo
                 alert(isiPesan);
             }}
         >
-            {nama}
+            {namaTombol}
         </button>
     );
 }
