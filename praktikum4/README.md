@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Nama : Hadian Nelvi
+Kelas : Ti- 3C
+Laporan Praktikum 4
 
-## Getting Started
+#Praktikum1
+![gambar](img/foto1.png)
+![gambar](img/foto2.png)
+![gambar](img/foto3.png)
 
-First, run the development server:
+#Praktikum2
+![gambar](img/foto4.png)
+![gambar](img/foto5.png)
+#### Jadi tombol 2 dapat menerima prop karena button tersebut juga function. dengan menambahkan props isiPesan dan namaTombol yang berupa any, kita dapat memasukkan pesan dan nama tombol saat memanggil button 2.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#Praktikum3
+![gambar](img/foto6.png)
+![gambar](img/foto7.png)
+![gambar](img/foto8.png)
+![gambar](img/foto9.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#praktikum4
+![gambar](img/foto10.png)
+![gambar](img/foto11.png)
+##### jika sebanyak lebih dari 5 kali akan terjadi error karena index pada sculptureList hanya sampai 5 index yaitu 0-4.
+#memodofikasi
+![gambar](img/foto12.png)
+### Jadi saya menambahkan fungsi handleClickBack untuk mengurangi index dan membuat pernyataan bahwa jika indek kurang dari 4 maka tampilkan selanjutnya, jika index lebih dari 0 maka tampilkan sebelumnya. kedua if ini berjalan secara terpisah, jadi jika kedua kondisi ini terpenuhi maka kedua tombol akan tampil.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#praktikum5
+![gambar](img/foto13.png)
+![gambar](img/foto14.png)
+![gambar](img/foto15.png)
+### 1. Perbedaannya adalah form_2 yang kedua lebih simple dan tidak terjadi redundansi. Jadi lebih efektif dan eifisien.
+### 2. Karena sebenarnya kita tidak memerlukan fullName, hanya dengan menggunakan firstName dan lastName saja sudah cukup untuk membuat full name tanpa fullName.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#Praktikum6
+![gambar](img/foto16.png)
+![gambar](img/foto17.png)
+### sepengertian saya, dengan memberi key yang berupa email akan mengatur ulang input dari text area tersebut. Jika tidak diberi key maka ketika kita input pesan di textarea pada salah satu kontak, jika kita mengganti kontak maka input tersebut masih tersimpan, dan hal ini dapat membuat kita salah kirim pesan. Dengan memberi key tersebut, input text area akan hilang dan diatur ulang jika kita mengganti kontak
