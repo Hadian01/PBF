@@ -2,16 +2,12 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-          <div>
-            <h1>Welcome to Home</h1>
-            <Link href='/profile'>Profile</Link>
-            <br></br>
-            <Link href='/about'>About</Link>
-            <br></br>
-            <Link href='/blogs'>Blogs</Link>
-            <br></br>
-            <Link href='/products'>products</Link>
-            <br></br>
-          </div>
-    );
-  }
+      <div>
+      <h1>Welcome to Home</h1>
+      <Link href='/profile'>Profile</Link>
+      <Link href='/about'>About</Link>
+      <Link href='/blogs'>blogs</Link>
+      <Link href='/products'>Products</Link>
+    </div>
+);
+}
