@@ -1,3 +1,9 @@
+import Head from "next/head";
+import Link from "next/link";
+import styles from "@/styles/Home.module.css";
+import CounterComponent from '../redux/counter/counterComponent';
+
+
 export default function Home() {
   return (      
     <div className="container">
@@ -30,6 +36,27 @@ export default function Home() {
               <h2>Halo semua, kita sedang menggunakan bootstrap di Next.js</h2>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col-12">
+          <Link href="/login">
+            <button className="btn btn-primary">Login</button>
+          </Link>
+        </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col-12">
+          <Link href="/counter">
+            <button className="btn btn-primary">Counter</button>
+          </Link>
+        </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col-12">
+          
+            <button className="btn btn-primary">Counter</button>
+            <CounterComponent />
         </div>
       </div>
     </div>
