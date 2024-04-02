@@ -16,3 +16,19 @@ Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda 
 ![gambar](img/3.jpeg)
 Dengan menggunakan atomic design ini, struktur penulisan kode untuk sintaks lebih mudah digunakan dan untuk component yang memiliki struktur yang mirip ataupun class yang sama dapat menggunakan function component yang sudah dibuat tanpa harus menulis kode yang sama berulang kali, sehinga lebih meudahkan dalam penulisan kode atau pemangilan kode berikutnya . hanya perlu memasukkan parameter untuk kedinamisan tampilkan yang dihasilkan dari kode yang dibuat. Tampilan laman yang ditampilkan dapat seperti hasil dari kode html yang umum digunakan, dengan variasi penggunaan heading.
 
+
+Langkah 3 :Buat dan gunakan Contect
+![gambar](img/5.jpeg)
+![gambar](img/6.jpeg)
+
+Langkah 4 : Sediakan Contect
+![gambar](img/4.jpeg)
+![gambar](img/7.jpeg)
+
+Soal no 2 :
+
+Meneruskan suatu value dapat dilakukan dengan menggunakan context, sehingga child hanya perlu mengakses value dari node atas terdekat atau parent, tanpa perlu diberi value untuk masing-masing child. Meskipun menggunakan context, tampilan laman yang dihasilkan masih sama seperti sebelumnya.
+
+
+
+
