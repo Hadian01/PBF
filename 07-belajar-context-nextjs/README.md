@@ -39,3 +39,22 @@ Soal No 3:
 
 Selain dapat membagikan value ke child secara manual, context dapat mengirimkan data dengan operasi atau pola yang sama, seperti pada langkah keenam ini, dapat dilakukan pengiriman value secara auto increment, namun perbedaan tampilan saat ini adalah, ukuran font lebih kecil, dikarenakan dengan value default 1, maka saat sampai ke child nya sudah dilakukan penambahan.
 
+Praktikum 2: Membuat Context melewati komponen perantara
+
+Langkah 1:Buat komponen atom baru
+![gambar](img/12.jpeg)
+![gambar](img/13.jpeg)
+![gambar](img/14.jpeg)
+![gambar](img/15.jpeg)
+![gambar](img/16.jpeg)
+
+Langkah 2: Tambahkan ProfilePage ke page.tsx lalu run
+![gambar](img/17.jpeg)
+![gambar](img/18.jpeg)
+![gambar](img/19.jpeg)
+![gambar](img/20.jpeg)
+![gambar](img/21.jpeg)
+
+
+
+
