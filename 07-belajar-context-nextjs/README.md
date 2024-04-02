@@ -29,6 +29,13 @@ Soal no 2 :
 
 Meneruskan suatu value dapat dilakukan dengan menggunakan context, sehingga child hanya perlu mengakses value dari node atas terdekat atau parent, tanpa perlu diberi value untuk masing-masing child. Meskipun menggunakan context, tampilan laman yang dihasilkan masih sama seperti sebelumnya.
 
+Langkah 5: Menggunakan dan menyediakan context dari komponen yang sama
+![gambar](img/8.jpeg)
+![gambar](img/9.jpeg)
+![gambar](img/10.jpeg)
+![gambar](img/11.jpeg)
 
+Soal No 3:
 
+Selain dapat membagikan value ke child secara manual, context dapat mengirimkan data dengan operasi atau pola yang sama, seperti pada langkah keenam ini, dapat dilakukan pengiriman value secara auto increment, namun perbedaan tampilan saat ini adalah, ukuran font lebih kecil, dikarenakan dengan value default 1, maka saat sampai ke child nya sudah dilakukan penambahan.
 
