@@ -1,5 +1,5 @@
 import React from 'react';
-import { LevelContext } from '@/app/utilities/context/mycontext'
+import { LevelContext } from '@/app/utilities/context/mycontext';
 import { useContext } from 'react';
 
 export default function Heading({ children }: {  children: any }) {
@@ -22,4 +22,4 @@ export default function Heading({ children }: {  children: any }) {
         default:
             throw Error('Unknown level: ' + level);
     }
-}
+}   

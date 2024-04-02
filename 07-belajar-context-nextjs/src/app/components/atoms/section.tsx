@@ -1,17 +1,13 @@
-import React from 'react';
-import { LevelContext } from '@/app/utilities/context/mycontext'
+import React, { useContext } from 'react';
+import { LevelContext } from '@/app/utilities/context/mycontext';
 
-export default function Section({ level, children }: { level: number, children: any }) {
+export default function Section({ children }: { children: any }) {
+    const level = useContext(LevelContext);
     return (
         <section className="section">
-            {LevelContext ? ( // Check if LevelContext is defined before using it
-                <LevelContext.Provider value={level}>
-                    {children}
-                </LevelContext.Provider>
-            ) : (
-                // Render alternative content or handle the case when LevelContext is undefined
-                <div>Context is not available</div>
-            )}
-        </section>
+            <LevelContext.Provider value={level + 1}>
+                {children}
+            </LevelContext.Provider>
+        </section>  
     );
 }
