@@ -1,12 +1,15 @@
 'use client'
 import MainPage from "./components/templates/main_page";
-import ProfilePage from "./components/templates/profile_page";
+import MyApp from "./components/atoms/myapp";
+import { Main } from "next/document";
+// import ProfilePage from "./components/templates/profile_page";
 
 export default function Home(){
-  return <div>
-    <MainPage />;
-    <hr />
-    <ProfilePage />
-  </div>
+  return <MyApp Component={MainPage} pageProps={undefined} />;
+  // return <div>
+  //   <MainPage />;
+  //   <hr />
+  //   <ProfilePage />
+  // </div>
  
 }
