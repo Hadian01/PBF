@@ -55,6 +55,42 @@ Langkah 2: Tambahkan ProfilePage ke page.tsx lalu run
 ![gambar](img/20.jpeg)
 ![gambar](img/21.jpeg)
 
+Praktikum 3: Membuat Context Tema Light/Dark
+
+Langkah 1: Membuat variabel tema
+![gambar](img/1.png)
+![gambar](img/2.png)
+
+Langkah 2: Buat komponen atom NavBar
+![gambar](img/3.png)
+
+Langkah 3: Buat Provider
+![gambar](img/4.png)
+
+Langkah 4: Buat masing-masing page
+![gambar](img/5.png)
+![gambar](img/6.png)
+
+Langkah 5: Buat routing
+![gambar](img/7.png)
+![gambar](img/8.png)
+
+soal No 5
+
+apakah toggle button tema sudah berfungsi ? jika belum, silakan perbaiki!
+![gambar](img/8.png)
+![gambar](img/9.png)
+![gambar](img/10.png)
+![gambar](img/11.png)
+![gambar](img/12.png)
+![gambar](img/13.png)
+
+Mengapa ketika refresh atau berpindah halaman tema tidak permanen ? Buatlah menjadi permanen walaupun page sudah direfresh dan pindah halaman!
+
+Hal tersebut dapat terjadi karena tidak disimpannya state tema dalam browser, masalah ini dapat diatasi dengan kode sebagai berikut.
+
+
+
 
 
 
